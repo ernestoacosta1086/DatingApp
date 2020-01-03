@@ -3,7 +3,7 @@ import { environment } from '../../environments/environment';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { User } from '../_models/user';
 import { Observable } from 'rxjs';
-import { PaginatedResult, PaginatedResult } from '../_models/pagination';
+import { PaginatedResult } from '../_models/pagination';
 import { map } from 'rxjs/operators';
 
 @Injectable({
