@@ -21,7 +21,7 @@ export class UserService {
 
     if (page != null && itemsPerPage != null ) {
       params = params.append('pageNumber', page);
-      params = params.append('pageNumber', itemsPerPage);
+      params = params.append('pageSize', itemsPerPage);
     }
 
     if(userParams != null){
